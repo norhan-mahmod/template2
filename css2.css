@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+*{
+    margin: 0;
+}
+body{
+    background-image: url("black.jpg");
+}
+.header{
+    text-align: center;
+    margin: 40px;
+}
+.font{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.font h1{
+    color: white;
+    font-size: 40px;
+}
+.green{
+    color: green;
+    text-transform: uppercase;
+}
+.white{
+    color: white;
+    text-transform: uppercase;
+    margin: 30px;
+}
+.container{
+    width: 70%;
+    height: 500px;
+    /* background-color: cadetblue; */
+    margin-left: 15%;
+}
+.form{
+    width: 65%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    float: left;
+}
+.contact{
+    width: 35%;
+    height: 100%;
+    background-color: black;
+    float: left;
+}
+.item{
+    width: 50%;
+    height: 15%;
+    /* background-color: burlywood; */
+    margin: 30px;
+}
+.item p{
+    color: darkgray;
+}
+.style{
+    padding: 20px 80px;
+    margin-left: 30px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(224, 224, 224);
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.style:focus{
+    border-bottom: 1px solid rgb(182, 31, 31);
+}
+.button{
+    padding: 15px 100px;
+    margin-left: 30px;
+    margin-top: 10px;
+    color: white;
+    background-color: rgb(32, 133, 32);
+    outline: none;
+    border: none;
+}
